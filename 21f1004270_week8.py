@@ -15,5 +15,5 @@ def largestNumber(num1,num2,num3):
    else:
       largest = num3
 if calc:
-   largest=largestNumber(num1,num2,num3)
+   largest=largestNumber(float(num1),float(num2),float(num3))
    st.write("The largest Number is:",largest)
